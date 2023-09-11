@@ -1,0 +1,16 @@
+div {
+    font-size: 200px;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+}
+
+.anchor {
+    padding: 10px;
+    background-color: aqua;
+}
