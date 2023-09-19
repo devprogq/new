@@ -35,6 +35,15 @@ import Navbar from '../components/navbar.astro';
 			white 60%
 		);
 	}
+
+	body::-webkit-scrollbar {
+		width: 7px;
+	}
+
+	body::-webkit-scrollbar-thumb {
+		background: #333742;
+		border-radius: 500px;
+	}
 	html {
 		font-family: system-ui, sans-serif;
 		background: #13151a;
@@ -52,4 +61,6 @@ import Navbar from '../components/navbar.astro';
 			Courier New,
 			monospace;
 	}
+
+	
 </style>
